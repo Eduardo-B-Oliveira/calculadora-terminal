@@ -1,0 +1,15 @@
+[20:53] EDUARDO BASTOS DE OLIVEIRA
+echo "Digite o primeiro número"
+read n1
+echo "Digite o segundo número"
+read n2 
+ 
+add=$[n1 + n2]
+sub=$[n1 - n2]
+multi=$[n1 * n2]
+div=$[n1 / n2]
+ 
+echo "A soma é" $add
+echo "A subtração é" $sub
+echo "A multiplicação é" $multi
+echo "A divisão é" $div
